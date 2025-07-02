@@ -1,0 +1,145 @@
+html {
+    background-color: #efe4d2;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+body {
+    font-size: 18px;
+    color: black;
+}
+
+.imgherramientas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+#tamañoimg {
+    width: 250px;
+    height: auto;
+}
+.StyleHome{
+    display: flex;
+    background-color: #efe4d2;
+    align-content: center;
+    justify-content: center;
+    color: black;
+}
+.changestyle:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/8005396/pexels-photo-8005396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-us {
+    border-top: 5px solid #ffc107; 
+}
+
+.footer {
+    background-color: #343a40; 
+}
+
+
+.producto-destacado {
+    background-color: #e9ecef; 
+    border-left: 5px solid #ffc107; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap');
+:root {
+  --bs-body-font-family: 'Roboto', sans-serif;
+  --bs-body-color: #212529;
+  --bs-body-bg: #f8f9fa;
+  --bs-light-bg-subtle: #f3f3f3;
+  --bs-border-color: #dee2e6;
+  --bs-heading-font-family: 'Montserrat', sans-serif;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-color: #dee2e6;
+  --bs-body-bg: #212529;
+  --bs-light-bg-subtle: #343a40;
+  --bs-border-color: #495057;
+  --bs-body-secondary-color: rgba(222, 226, 230, 0.75);
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-heading-font-family);
+}
+
+.changestyle:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/8005396/pexels-photo-8005396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+
+.producto-destacado {
+    background-color: var(--bs-light-bg-subtle);
+    border-left: 5px solid #ffc107;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.footer .social-icon {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.footer .social-icon:hover {
+    color: #ffc107;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-color: var(--bs-border-color);
+}
+
+.carousel-image {
+  height: 450px; 
+  object-fit: cover; 
+  width: 100%;
+  border-radius: 0.5rem; 
+}
+
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 250px; 
+  }
+}
